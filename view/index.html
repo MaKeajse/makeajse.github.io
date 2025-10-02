@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Laura Serrano</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+            <img src="../assets/img/Laurish.jpg" alt="Laura Serrano" class="avatar">
+            <h1>Laura Juliana Serrano García</h1>
+            <h2>Desarrolladora de Software en formación | Analista de Sistemas</h2>
+            <p>
+                📧 <a href="mailto:laurish_50@hotmail.com">laurish_50@hotmail.com</a> |
+                📞 316 483 6139 | Github: 
+                <a href="https://github.com/keajse">Keajse</a> -
+                <a href="https://github.com/makeajse">Makeajse</a> |
+                <a href="https://linkedin.com/in/laura-juliana-serrano-garcía-43897b53/">LinkedIn</a>
+            </p>
+            <button id="btn-tema" aria-pressed="false" style="margin-top:10px;border:none;padding:10px 14px;border-radius:10px;cursor:pointer;background:#ffffff22;color:#fff;">
+            🌙 Modo oscuro
+            </button>
+    </header>
+
+    <main>
+        <section id="experiencia">
+            <h2>Experiencia profesional</h2>
+            <input id="filtro" type="search" placeholder="Filtrar por cargo, logro o tecnología..." style="max-width:420px;width:100%;padding:10px;border-radius:10px;border:1px solid #e6e9ef;margin:6px 0 12px;">
+            <div id="exp-wrap"></div>
+        </section>
+
+        <section id="educacion" style="padding:20px;">
+            <h2>Educación</h2>
+            <div id="edu-wrap"></div>
+        </section>
+
+        <section id="formacion" style="padding:20px;">
+            <h2>Cursos y formación</h2>
+            <!-- Controles -->
+            <div id="curso-controls" style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 12px;">
+                <input id="curso-search" type="search" placeholder="Buscar curso, institución, categoría..." style="max-width:420px;width:100%;padding:10px;border-radius:10px;border:1px solid #e6e9ef;">
+                <div id="curso-tabs" class="tabs"></div>
+            </div>
+            <!-- Contenido -->
+            <div id="curso-wrap"></div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos destacados</h2>
+
+            <div id="proy-controls" style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 12px;">
+                <input id="proy-search" type="search" placeholder="Buscar por título, tecnología o resultado...">
+                <div id="proy-tabs" class="tabs"></div>
+            </div>
+
+            <div id="proy-wrap"></div>
+        </section>
+
+
+
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <p>Recuerda hacer de lo ordinario, algo EXTRAORDINARIO | LJSG - MaKeajse 2025</p>
+    </footer>
+
+    <script src="../model/data.js"></script>
+    <script src="../controller/app.js"></script>
+</body>
+</html>
