@@ -5,14 +5,13 @@ window.experiencias = [
         empresa: "CELERIX S.A.S.",
         periodo: "nov 2025 - Actualidad",
         responsabilidades: [
-        "Trabajo con Filemaker Pro",
+        "Realizar aplicaciones con Filemaker Pro",
         "Automatización de procesos",
-        "Gestión de base de datos, estructura y relación",
-        "Herramientas complementarias de apoyo para el área"
+        "Formación constante para dar mejor respuesta a las necesidades de los usuarios"
         ],
         logros: [
         "Aplicaciones con Filemaker Pro",
-        "Participación en los estándares del manejo de la herramienta."
+        "Diagrama de Flujo"
         ]
     },
     {
