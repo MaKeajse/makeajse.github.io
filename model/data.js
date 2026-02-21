@@ -1,9 +1,24 @@
 // Datos de experiencia laboral
 window.experiencias = [
+     {
+        rol: "Optimizadora de Procesos",
+        empresa: "CELERIX S.A.S.",
+        periodo: "nov 2025 - Actualidad",
+        responsabilidades: [
+        "Trabajo con Filemaker Pro",
+        "Automatización de procesos",
+        "Gestión de base de datos, estructura y relación",
+        "Herramientas complementarias de apoyo para el área"
+        ],
+        logros: [
+        "Aplicaciones con Filemaker Pro",
+        "Participación en los estándares del manejo de la herramienta."
+        ]
+    },
     {
         rol: "Analista de Sistemas — Líder de Proceso",
         empresa: "COTIVIDRIOS S.A.S.",
-        periodo: "ene 2021 – Actualidad",
+        periodo: "ene 2021 – nov 2025",
         responsabilidades: [
         "Diseñar, automatizar y mantener formatos corporativos en Excel con VBA.",
         "Desarrollar aplicaciones internas en Python (Tkinter, Pandas).",
@@ -81,7 +96,7 @@ window.educacion = [
         institucion: "Politécnico Grancolombiano",
         ciudad: "Medellín (virtual)",
         periodo: "2022 – 2026",
-        detalle: "Actualmente 7º semestre (promedio 4.78).",
+        detalle: "Actualmente 8º semestre (promedio 4.75).",
         logo: "../assets/img/logos/poligran.png"
     },
     {
